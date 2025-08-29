@@ -3,5 +3,6 @@ public with sharing class lead {
         List<Account> accList = [Select Id,Name,Industry FROM Account];
         for(Account acc: accList){
         System.debug(acc.Id);
+        System.debug(acc.Name);
     }
 }
