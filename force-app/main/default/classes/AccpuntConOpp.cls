@@ -14,7 +14,7 @@ public with sharing class AccpuntConOpp {
 
 
 
-                
+
 
                 
             ));
@@ -22,6 +22,9 @@ public with sharing class AccpuntConOpp {
                 Name = 'New Opportunity for ' + accountId,
                 CloseDate = Date.today().addDays(30),
                 StageName = 'Prospecting',
+
+
+                
                 AccountId = accountId
             ));
         }
