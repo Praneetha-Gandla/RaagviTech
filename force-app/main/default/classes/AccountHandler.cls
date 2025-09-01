@@ -4,6 +4,7 @@ public with sharing class AccountHandler {
     for(Account acc: accList){
       System.debug('List of Account --->', +acc.Name);
       System.debug('List of Account --->, + acc.Industry);
+      System.debug('List of Account ---->,+acc.Id);
    }
  }
 }
